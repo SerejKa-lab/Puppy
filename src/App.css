@@ -1,0 +1,55 @@
+.app {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 350px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://pbs.twimg.com/media/Dm1W9YxX0AEHUne.jpg:large); 
+    background-size: cover;
+}
+
+.item {
+    width: 30%;
+    height: 100px;
+    background-color: gainsboro;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: gainsboro;
+    margin: 5px 0;
+}
+
+.active {
+    background-image: url('https://i.simpalsmedia.com/999.md/BoardImages/900x900/e194ebc2a56c8c52d20fafd333ded063.jpg');
+    background-position: 50% 25%;
+    background-size: cover;
+}
+
+.counter {
+    height: 50px;
+    min-width: 50px;
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 27px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.counterPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counterPanel button {
+    font-size: 25px;
+    margin: 5px 0;
+    border-radius: 7px;
+}
